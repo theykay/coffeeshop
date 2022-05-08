@@ -1,0 +1,162 @@
+{
+  "daily": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ],
+  "cold": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ],
+  "espresso": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ],
+  "variety": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ],
+  "pastries": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ]
+}
