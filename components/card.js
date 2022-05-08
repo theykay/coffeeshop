@@ -1,3 +1,5 @@
+
+
 class Card extends HTMLElement {
   constructor() {
     super();
@@ -5,11 +7,12 @@ class Card extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <style>
+      @use '../styles/main.scss' as styles;
       .card {
         width: 16rem;
         padding: 1rem;
         border-radius: 1rem;
-        background-color: lightgrey;
+        background-color: styles.$offwhite;
       }
       
       .card-img {
