@@ -1,8 +1,10 @@
-
-
 class Card extends HTMLElement {
-  constructor() {
+  constructor(image, name, description, price) {
     super();
+    this.image = image;
+    this.name = name;
+    this.description = description;
+    this.price = price;
   }
   connectedCallback() {
     this.innerHTML = `
@@ -39,10 +41,10 @@ class Card extends HTMLElement {
       }
     </style>
     <section class="card">
-      <img class="card-img" src="https://p16-sg.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/3aede26a35804538bd7a1fe9b8522b4e.jpeg" alt="the bagel" />
-      <h3 class="card-name">The Everything Bagel</h3>
-      <p class="card-text">I got bored one day and put everything on a bagel</p>
-      <h4 class="card-price">500 Bells</h4>
+      <img class="card-img" src="${this.image}" alt="${this.name}" />
+      <h3 class="card-name">${this.name}</h3>
+      <p class="card-text">${this.description}</p>
+      <h4 class="card-price">${this.price}</h4>
     </section>
     `;
   }
