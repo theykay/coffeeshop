@@ -1,5 +1,7 @@
-{
-  "daily": [
+[
+  {
+    "category": "daily",
+    "items": [
     {
       "image": "",
       "name": "",
@@ -30,8 +32,10 @@
       "description": "",
       "price": ""
     }
-  ],
-  "cold": [
+  ]},
+  {
+    "category": "cold",
+    "items" : [
     {
       "image": "",
       "name": "",
@@ -62,8 +66,10 @@
       "description": "",
       "price": ""
     }
-  ],
-  "espresso": [
+  ]},
+  {
+    "category": "espresso",
+    "items": [
     {
       "image": "",
       "name": "",
@@ -94,8 +100,10 @@
       "description": "",
       "price": ""
     }
-  ],
-  "variety": [
+  ]},
+  {
+    "category": "variety",
+    "items": [
     {
       "image": "",
       "name": "",
@@ -126,8 +134,10 @@
       "description": "",
       "price": ""
     }
-  ],
-  "pastries": [
+  ]},
+  {
+    "category": "pastries",
+    "items": [
     {
       "image": "",
       "name": "",
@@ -158,5 +168,5 @@
       "description": "",
       "price": ""
     }
-  ]
-}
+  ]}
+]
