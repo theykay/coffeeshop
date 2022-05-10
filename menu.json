@@ -1,0 +1,172 @@
+[
+  {
+    "category": "daily",
+    "items": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ]},
+  {
+    "category": "cold",
+    "items" : [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ]},
+  {
+    "category": "espresso",
+    "items": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ]},
+  {
+    "category": "variety",
+    "items": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ]},
+  {
+    "category": "pastries",
+    "items": [
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ]}
+]
