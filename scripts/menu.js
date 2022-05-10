@@ -7,7 +7,7 @@ const fetchMenu = async () => {
 
 const renderMenu = async () => {
   const menu = await fetchMenu();
-  console.log(menu);
+  // console.log(menu);
   menu.forEach(item => {
     let menuSection = document.createElement('section');
     menuSection.setAttribute('id', item.category);
