@@ -1,0 +1,17 @@
+:root {
+  --lightBrown: #765239;
+  $darkBrown: #473C32;
+  $forestGreen: #395331;
+  $sageGreen: #D0E0B8;
+  $yellow: #FFC73E;
+  $black: #000000;
+  $white: #ffffff;
+  $greyLight: #E0E0E0;
+  $greyMed: #828282;
+  $greyDark: #4F4F4F;
+  $offwhite: #FFF9F1;
+
+}
+
+@import './partials/fonts';
+@import './partials/screens';

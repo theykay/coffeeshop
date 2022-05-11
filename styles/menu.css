@@ -1,0 +1,26 @@
+@use './main.scss' as styles;
+
+.menu-category {
+
+}
+
+.menu-header {
+
+}
+
+.menu-card-image {
+  width: 5rem;
+  height: auto;
+}
+
+.menu-card-name {
+
+}
+
+.menu-card-blurb {
+
+}
+
+.menu-card-cost {
+
+}
