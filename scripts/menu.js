@@ -12,6 +12,10 @@ const renderMenu = async () => {
     let menuSection = document.createElement('section');
     menuSection.setAttribute('id', item.category);
     menuSection.setAttribute('class', 'menu-category');
+    let menuHeader = `
+      <h1 class="menu-header">${item.category}</h1>
+    `;
+    menuSection.innerHTML += menuHeader;
     item.items.forEach(menuItem => {
       let menuCard = `
         <div class="menu-card">
