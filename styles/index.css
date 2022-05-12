@@ -1,9 +1,9 @@
 .homepage h1 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--title);
   font-size: 32px;
 }
 .homepage p {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--content);
   font-size: 20px;
 }
 .homepage {
@@ -16,7 +16,7 @@
   margin-right: auto;
 }
 .submit-recipe-button {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--title);
   font-size: 20px;
   display: flex;
   margin-left: auto;
@@ -25,8 +25,8 @@
   margin-bottom: 2em;
   justify-content: center;
   align-items: center;
-  background: #395331;
-  color: #ffffff;
+  background: var(--forestGreen);
+  color: var(--white);
   height: 3em;
   width: 30em;
   border-radius: 0.5em;
@@ -39,14 +39,14 @@
   display: flex;
   justify-content: center;
 }
-.delivery-buttons > div {
+.ubereats-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--title);
   font-size: 20px;
-  background: #395331;
-  color: #ffffff;
+  background: var(--forestGreen);
+  color: var(--white);
   height: 3em;
   width: 15em;
   border-radius: 0.5em;
@@ -56,15 +56,34 @@
   margin-bottom: 2em;
   box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
 }
-.delivery-buttons > div:hover {
+.doordash-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--title);
+  font-size: 20px;
+  background: var(--forestGreen);
+  color: var(--white);
+  height: 3em;
+  width: 15em;
+  border-radius: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.ubereats-button a {
+  text-decoration: none;
+  color: var(--white);
+}
+.doordash-button a {
+  text-decoration: none;
+  color: var(--white);
+}
+.doordash-button:hover {
   box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.5);
 }
-
-.ubereats-button a:link {
-  text-decoration: none;
-  color: #ffffff;
-}
-.doordash-button a:link {
-  text-decoration: none;
-  color: #ffffff;
+.ubereats-button:hover {
+  box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.5);
 }
