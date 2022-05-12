@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  /* colors */
+  --lightBrown: #765239;
+  --darkBrown: #473C32;
+  --forestGreen: #395331;
+  --sageGreen: #D0E0B8;
+  --yellow: #FFC73E;
+  --black: #000000;
+  --white: #ffffff;
+  --greyLight: #E0E0E0;
+  --greyMed: #828282;
+  --greyDark: #4F4F4F;
+  --offwhite: #FFF9F1;
+  /* fonts */
+  --title: 'Share', cursive;
+  --content: 'Roboto', sans-serif;
+  /* screens */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

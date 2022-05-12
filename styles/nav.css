@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background: #FFF9F1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: white;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.account-icon {
+    width: 2rem;
+    height: auto;
+    padding: 1rem;
+
+}
+.account-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 5px;
+    padding: 1em
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 3rem;
+    
+}
+
+nav p {
+    font-size: larger;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: none;
+    color: white;
+  }
+
+  a:link {
+    color: #395331;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #FFC73E;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #765239;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

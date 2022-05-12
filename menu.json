@@ -1,172 +1,106 @@
 [
   {
-    "category": "daily",
+    "category": "Daily",
     "items": [
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/drip-coffee.jpeg",
+      "name": "Drip Coffee",
+      "description": "A cup of delicious batch brewed drip coffee.",
+      "price": "$2.00 - $3.00"
     }
   ]},
   {
-    "category": "cold",
+    "category": "Cold",
     "items" : [
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/iced-espresso.jpeg",
+      "name": "Iced Espressor & Milk",
+      "description": "A double shot of espresso with milk served on ice. All sizes contain a double shot of espresso, therefore larger = more milk.",
+      "price": "$5.00 - $5.50"
     },
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/cold-brew.jpeg",
+      "name": "Cold Brew",
+      "description": "We brew this coffee at room temperature for 24 hours. It's strong, lower in acidity, and pumped through our nitro tap and served on ice.",
+      "price": "$4.50 - $5.00"
     }
   ]},
   {
-    "category": "espresso",
+    "category": "Espresso",
     "items": [
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/double-espresso.png",
+      "name": "Double Espresso",
+      "description": "A double shot of espresso. Generally we have a blend & single origin offering. Espresso is meant to be enjoyed fresh, hot, & in a ceramic cup. Perhaps you'd even cleanse your palate first with some cool sparkling water, and then experience the symphony of complex flavors that allure & delight. The kind of thing that might even change your whole life... have I gone too far?",
+      "price": "$3.00"
     },
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/espresso-milk.jpeg",
+      "name": "Espresso & Milk",
+      "description": "A double shot of espresso with steamed milk. Each size contains a double shot of espresso. Therefore a bigger size = more milk.",
+      "price": "$4.00 - $5.00"
     }
   ]},
   {
-    "category": "variety",
+    "category": "Variety",
     "items": [
     {
-      "image": "",
-      "name": "",
-      "description": "",
+      "image": "../images/topochico.jpeg",
+      "name": "Topo Chico",
+      "description": "Topo Chico Sparkling Mineral Water",
+      "price": "$2.50"
+    },
+    {
+      "image": "../images/dram.jpeg",
+      "name": "Canned Beverages",
+      "description": "Dram makes sparkling herbal canned beverages. They can be used to improve digestion, offer gentle detox support, relaxation and immune support, all while tasting, and looking beautiful.",
+      "price": "$3.00 - $4.75"
+    },
+    {
+      "image": "../images/chocolate.jpeg",
+      "name": "Hot Chocolate",
+      "description": "Made with 70% dark chocolate from Woodblock, steamed milk, and a touch of our house-made vanilla syrup.",
+      "price": "$4.00 - $5.00"
+    },
+    {
+      "image": "../images/chai.jpeg",
+      "name": "Chai",
+      "description": "We use Kilogram's masala chai (black tea, cinnamon, cardamom, ginger, cane sugar, & molasses) combined with the milk of your choice. We like to sprinkle a bit of cinnamon on top of a hot chai, so let us know in the notes if you'd rather not have cinnamon on top.",
       "price": ""
     },
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/matcha.jpeg",
+      "name": "Matcha",
+      "description": "Matcha: shade grown green tea ground into a fine powder. Generously whisked with hot water and combined with steamed milk. Add our house-made vanilla syrup to balance out some of the grassy/bitterness and to add a nice round sweetness.",
+      "price": "$4.50 - $5.50"
     }
   ]},
   {
-    "category": "pastries",
+    "category": "Bites",
     "items": [
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/vegan-gluten-free-cookies.jpeg",
+      "name": "Vegan & Gluten Free Cookies",
+      "description": "These mind blowing little devils are gluten-free & dairy-free.",
+      "price": "$4.25"
     },
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/bars.jpeg",
+      "name": "Bars - OTF & Lara",
+      "description": "Vegan & gluten-free plant-based meal bars",
+      "price": "$2.00 - $4.25"
     },
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/pies.jpeg",
+      "name": "Pie Party",
+      "description": "Fresh and seasonal hand pies from Pie Party",
+      "price": "$4.00 - $5.00"
     },
     {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "description": "",
-      "price": ""
+      "image": "../images/pastries.jpeg",
+      "name": "Pastries",
+      "description": "Turnovers, muffins, & scones from Betony Traveling Cafe",
+      "price": "$2.00 - $5.00"
     }
   ]}
 ]
