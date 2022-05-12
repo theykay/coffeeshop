@@ -1,0 +1,76 @@
+.menu-nav {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: var(--sageGreen);
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.menu-nav-list {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu-nav-item {
+  width: auto;
+  padding: 1rem;
+}
+
+.menu-nav-item:first-child {
+  padding-left: 2rem;
+}
+
+.menu-nav-item:last-child {
+  padding-right: 2rem;
+}
+
+.menu-category {
+  max-width: 88rem;
+}
+
+.menu-header {
+  background-color: var(--offwhite);
+  padding: 1rem;
+}
+
+.menu-contents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  /* border: 1px solid black; */
+  width: 15rem;
+  height: max-content;
+  margin: 1rem;
+  background-color: var(--sageGreen);
+  border-radius: 1rem;
+  box-shadow: 0 0 .25rem var(--black);
+  overflow: hidden;
+}
+
+.menu-card-img {
+  width: 100%;
+  height: auto;
+  /* border-radius: .5rem .5rem 0 0; */
+}
+
+.menu-card-text {
+  padding: 0 1rem;
+}
+
+.menu-card-name {
+
+}
+
+.menu-card-blurb {
+
+}
+
+.menu-card-cost {
+
+}

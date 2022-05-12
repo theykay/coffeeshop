@@ -1,4 +1,5 @@
 const menuContainer = document.getElementById('menu');
+const menuNav = document.getElementById('menu-nav-container');
 
 const fetchMenu = async () => {
   let response = await fetch('../menu.json');
@@ -15,18 +16,27 @@ const renderMenu = async () => {
     let menuHeader = `
       <h1 class="menu-header">${item.category}</h1>
     `;
+    let menuNavEntry = `
+      <li class="menu-nav-item">${item.category}</li>
+    `;
+    let menuContents = document.createElement('section');
+    menuContents.setAttribute('class', 'menu-contents');
     menuSection.innerHTML += menuHeader;
     item.items.forEach(menuItem => {
       let menuCard = `
         <div class="menu-card">
           <img class="menu-card-img" src="${menuItem.image}" alt="${menuItem.name}" />
-          <h3 class="menu-card-name">${menuItem.name}</h3>
-          <p class="menu-card-blurb">${menuItem.description}</p>
-          <h5 class="menu-card-cost">${menuItem.price}</h5>
+          <section class="menu-card-text">
+            <h3 class="menu-card-name">${menuItem.name}</h3>
+            <p class="menu-card-blurb">${menuItem.description}</p>
+            <h5 class="menu-card-cost">${menuItem.price}</h5>
+          </section>
         </div>
       `;
-      menuSection.innerHTML += menuCard;
+      menuContents.innerHTML += menuCard;
     });
+    menuSection.append(menuContents);
+    menuNav.innerHTML += menuNavEntry;
     menuContainer.append(menuSection);
   });
 }
