@@ -24,3 +24,11 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 88rem;
+  margin: 0 auto;
+}
