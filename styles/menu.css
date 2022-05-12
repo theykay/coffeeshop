@@ -3,14 +3,17 @@
 .menu-nav {
   display: inline-block;
   margin: 0 auto;
-  background-color: var(--sageGreen);
   border-radius: 0 0 .5rem .5rem;
+  overflow: hidden;
   box-shadow: 0 0 .25rem var(--black);
+  font-family: var(--title);
+  font-weight: 700;
 }
 
 .menu-nav-list {
+  /* display: inline-block; */
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -27,15 +30,22 @@
   padding: 1rem;
   display: inline-block;
   text-decoration: none;
+  color: var(--darkBrown);
+  background-color: var(--sageGreen);
 }
 
-.menu-nav-li:first-child .menu-nav-link {
+.menu-nav-link:hover {
+  background-color: var(--forestGreen);
+  color: var(--white);
+}
+
+/* .menu-nav-li:first-child .menu-nav-link {
   padding-left: 2rem;
 }
 
 .menu-nav-li:last-child .menu-nav-link {
   padding-right: 2rem;
-}
+} */
 
 /* page content */
 
