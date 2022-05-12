@@ -1,4 +1,5 @@
 const menuContainer = document.getElementById('menu');
+const menuNav = document.getElementById('menu-nav-container');
 
 const fetchMenu = async () => {
   let response = await fetch('../menu.json');
@@ -14,6 +15,9 @@ const renderMenu = async () => {
     menuSection.setAttribute('class', 'menu-category');
     let menuHeader = `
       <h1 class="menu-header">${item.category}</h1>
+    `;
+    let menuNavEntry = `
+      <li class="menu-nav-item">${item.category}</li>
     `;
     let menuContents = document.createElement('section');
     menuContents.setAttribute('class', 'menu-contents');
@@ -32,6 +36,7 @@ const renderMenu = async () => {
       menuContents.innerHTML += menuCard;
     });
     menuSection.append(menuContents);
+    menuNav.innerHTML += menuNavEntry;
     menuContainer.append(menuSection);
   });
 }
