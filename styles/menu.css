@@ -1,16 +1,37 @@
-@use './main.scss' as styles;
-
 .menu-category {
-
+  max-width: 88rem;
 }
 
 .menu-header {
-
+  background-color: var(--offwhite);
+  padding: 1rem;
 }
 
-.menu-card-image {
-  width: 5rem;
+.menu-contents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  /* border: 1px solid black; */
+  width: 15rem;
+  height: max-content;
+  margin: 1rem;
+  background-color: var(--sageGreen);
+  border-radius: 1rem;
+  box-shadow: 0 0 .25rem var(--black);
+  overflow: hidden;
+}
+
+.menu-card-img {
+  width: 100%;
   height: auto;
+  /* border-radius: .5rem .5rem 0 0; */
+}
+
+.menu-card-text {
+  padding: 0 1rem;
 }
 
 .menu-card-name {

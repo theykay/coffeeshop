@@ -1,6 +1,6 @@
 [
   {
-    "category": "daily",
+    "category": "Daily",
     "items": [
     {
       "image": "../images/drip-coffee.jpeg",
@@ -10,7 +10,7 @@
     }
   ]},
   {
-    "category": "cold",
+    "category": "Cold",
     "items" : [
     {
       "image": "../images/iced-espresso.jpeg",
@@ -26,7 +26,7 @@
     }
   ]},
   {
-    "category": "espresso",
+    "category": "Espresso",
     "items": [
     {
       "image": "../images/double-espresso.png",
@@ -42,7 +42,7 @@
     }
   ]},
   {
-    "category": "variety",
+    "category": "Variety",
     "items": [
     {
       "image": "../images/topochico.jpeg",
