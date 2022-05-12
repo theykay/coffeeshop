@@ -17,7 +17,11 @@ const renderMenu = async () => {
       <h1 class="menu-header">${item.category}</h1>
     `;
     let menuNavEntry = `
-      <li class="menu-nav-item">${item.category}</li>
+      <li class="menu-nav-li">
+        <a class="menu-nav-link" href="#${item.category}">
+          ${item.category}
+        </a>
+      </li>
     `;
     let menuContents = document.createElement('section');
     menuContents.setAttribute('class', 'menu-contents');

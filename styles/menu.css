@@ -1,8 +1,11 @@
+/* page nav */
+
 .menu-nav {
   display: inline-block;
   margin: 0 auto;
   background-color: var(--sageGreen);
   border-radius: 0 0 .5rem .5rem;
+  box-shadow: 0 0 .25rem var(--black);
 }
 
 .menu-nav-list {
@@ -14,18 +17,27 @@
   list-style: none;
 }
 
-.menu-nav-item {
+.menu-nav-li {
+  display: block;
   width: auto;
-  padding: 1rem;
+  height: auto;
 }
 
-.menu-nav-item:first-child {
+.menu-nav-link {
+  padding: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu-nav-li:first-child .menu-nav-link {
   padding-left: 2rem;
 }
 
-.menu-nav-item:last-child {
+.menu-nav-li:last-child .menu-nav-link {
   padding-right: 2rem;
 }
+
+/* page content */
 
 .menu-category {
   max-width: 88rem;
@@ -60,7 +72,7 @@
 }
 
 .menu-card-text {
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .menu-card-name {
