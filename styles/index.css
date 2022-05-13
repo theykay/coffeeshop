@@ -31,6 +31,7 @@
   width: 30em;
   border-radius: 0.5em;
   box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 .submit-recipe-button:hover {
   box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.5);
