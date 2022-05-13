@@ -25,6 +25,11 @@
   padding: 0;
 }
 
+html {
+  background-color: var(--offwhite);
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;

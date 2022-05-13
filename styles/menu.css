@@ -69,7 +69,7 @@
   width: 15rem;
   height: max-content;
   margin: 1rem;
-  background-color: var(--sageGreen);
+  background-color: var(--white);
   border-radius: 1rem;
   box-shadow: 0 0 .25rem var(--black);
   overflow: hidden;
