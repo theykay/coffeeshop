@@ -3,6 +3,8 @@ const headerNav = `
   <a class="nav-section" href="/index.html">
     <img class="logo" src="images/logo.png" alt="logo">
     <h1 class="coffee-title">THREE PINES COFFEE</h1>
+  </a>
+  <div className="main-links">
     <button class="dropbtn">
       <a class="main-nav-link" href="/menu.html">Menu</a>
     </button>
@@ -19,7 +21,8 @@ const headerNav = `
     <button class="dropbtn">
       <a class="main-nav-link" href="/about.html">About Us</a>
     </button>
-  </a>
+  </div>
+  <!-- </a> -->
   <a class="account-link main-nav-link" href="/account.html">
     <i class="fa-solid fa-circle-user fa-2x account-icon"></i>
     <!--  <img class="account-icon" src="/images/account_icon.png"> -->
@@ -28,7 +31,7 @@ const headerNav = `
 </nav>
 `;
 
-const headerEl = document.getElementById('nav-target');
+const headerEl = document.getElementById("nav-target");
 headerEl.innerHTML += headerNav;
 
 const footerFill = `
@@ -70,5 +73,5 @@ const footerFill = `
 </div>
 `;
 
-const footerEl = document.getElementById('foot-target');
+const footerEl = document.getElementById("foot-target");
 footerEl.innerHTML += footerFill;
