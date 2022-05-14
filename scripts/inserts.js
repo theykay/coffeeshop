@@ -21,7 +21,8 @@ const headerNav = `
     </button>
   </a>
   <a class="account-link main-nav-link" href="/account.html">
-    <img class="account-icon" src="/images/account_icon.png">
+    <i class="fa-solid fa-circle-user fa-2x account-icon"></i>
+    <!--  <img class="account-icon" src="/images/account_icon.png"> -->
     Account
   </a>
 </nav>
