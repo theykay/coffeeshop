@@ -1,0 +1,15 @@
+.coffeegirl {
+    height: 20rem;
+    float: left;
+    justify-content:left ;
+    padding: 10rem
+}
+
+.coffeebar {
+    height: 4rem;
+    justify-content: center;
+}
+
+form {
+    float: center;
+}
