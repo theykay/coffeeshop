@@ -5,7 +5,7 @@ const headerNav = `
         <img class="logo" src="images/logo.png" alt="logo">
         <h1 class="coffee-title">THREE PINES COFFEE</h1>
     </a>
-    <div className="main-links">
+    <div class="main-links">
       <button class="dropbtn">
         <a class="main-nav-link" href="/menu.html">Menu</a>
       </button>
@@ -23,13 +23,13 @@ const headerNav = `
         <a class="main-nav-link" href="/about.html">About Us</a>
       </button>
     </div>
-  </div> 
+  </div>
   <!-- </a> -->
-  <div className="right">
+  <div class="right">
     <a class="account-link main-nav-link" href="/account.html">
       <i class="fa-solid fa-circle-user fa-2x account-icon"></i>
       <!--  <img class="account-icon" src="/images/account_icon.png"> -->
-      <span className="account-text">Account</span>
+      <span class="account-text">Account</span>
     </a>
   </div>
 </nav>
