@@ -5,13 +5,13 @@ body {
 
 footer{
     position: absolute;
-    bottom: 2rem;
+    bottom: 0rem;
     left: 0;
     right: 0;
     background: #395331;
     height: auto;
     width: 100vw;
-    padding-top: 40px;
+    padding-top: 1rem;
     color: #fff;
 }
 
@@ -32,7 +32,7 @@ p {
 
 ul {
     list-style-type: none;
-    float: right;
+    float:right;
     padding-right: 20rem;
 }
 
@@ -60,3 +60,25 @@ a:link {
       word-spacing: 2px;
       text-transform: capitalize;
   }
+  .instagram-link {
+      fill: #ffffff;
+  }
+
+  div.copyright{
+    display:block;
+    bottom:0;
+    right:0;
+    width:100%;
+    background:#eee;
+    border:0px solid #ddd;
+}
+
+svg {
+    float: right;
+    padding: 4px;
+    padding-top: 1rem;
+}
+
+svg:hover {
+    fill: #FFC73E;
+}
