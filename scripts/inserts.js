@@ -29,3 +29,45 @@ const headerNav = `
 
 const headerEl = document.getElementById('nav-target');
 headerEl.innerHTML += headerNav;
+
+const footerFill = `
+<div class="upper">
+  <section class="info-section">
+    <div class="info">
+      <h3>Address</h3>
+      <p class="info-p">165 S. Main St.</p>
+      <p class="info-p">Salt Lake City</p>
+      <p class="info-p">UT, 84111</p>
+    </div>
+    <div class="info">
+      <h3>Hours:</h3>
+      <p class="info-p hours"><span class="times first-times">Mon - Fri:</span><span class="times">7AM - 5PM</span>
+      </p>
+      <p class="info-p hours"><span class="times">Sat - Sun:</span><span class="times">8AM-5PM</span></p>
+    </div>
+    <div class="info">
+      <a class="footer-link" href="/policy.html">Policy</a>
+      <a class="footer-link" href="/terms.html">Terms of Service</a>
+      <a class="footer-link" href="/careers.html">Careers</a>
+      <a class="footer-link" href="/contact.html">Contact</a>
+    </div>
+  </section>
+  <section class="info-section">
+    <a class="footer-link social-link" href="https://www.facebook.com/threepinescoffee/">
+      <i class="fa-brands fa-facebook-square fa-3x"></i>
+    </a>
+    <a class="footer-link social-link" href="https://www.instagram.com/threepinescoffee/?hl=en">
+      <i class="fa-brands fa-instagram-square fa-3x"></i>
+    </a>
+    <a class="footer-link social-link" href="https://twitter.com/3pinescoffee">
+      <i class="fa-brands fa-twitter-square fa-3x"></i>
+    </a>
+  </section>
+</div>
+<div class="lower">
+  <p class="copyright-content">Copyright &copy;2022</p>
+</div>
+`;
+
+const footerEl = document.getElementById('foot-target');
+footerEl.innerHTML += footerFill;

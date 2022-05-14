@@ -1,84 +1,75 @@
-body {
-    margin: 0;
-    background: #FFF9F1;
-}
-
-footer{
-    position: absolute;
-    bottom: 0rem;
-    left: 0;
-    right: 0;
-    background: #395331;
-    height: auto;
-    width: 100vw;
-    padding-top: 1rem;
-    color: #fff;
-}
-
 .footer-container {
-    width: 100%;
-    margin: 0 auto;
-    display:list-item ;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  /* position: absolute;
+  bottom: 0rem;
+  left: 0;
+  right: 0; */
+  flex-shrink: 0;
+  padding-top: 1rem;
+  width: 100vw;
+  height: auto;
+  margin: 0 auto;
+  background: var(--forestGreen);
+  color: var(--white);  
 }
 
-p {
-    float: left;
-    padding: 2rem 5rem;
-    color: #ffffff;
+.upper {
+  width: 100%;
+  max-width: 81rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-ul {
-    list-style-type: none;
-    float:right;
-    padding-right: 20rem;
+.info-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
 }
 
-a:link {
-    color: #ffffff;
-    background-color: transparent;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #FFC73E;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  .copyright {
-      color: black;
-      float: left;
-      font-size: 14px;
-      word-spacing: 2px;
-      text-transform: capitalize;
-  }
-  .instagram-link {
-      fill: #ffffff;
-  }
-
-  div.copyright{
-    display:block;
-    bottom:0;
-    right:0;
-    width:100%;
-    background:#eee;
-    border:0px solid #ddd;
+.info-section:last-child {
+  align-self: center;
 }
 
-svg {
-    float: right;
-    padding: 4px;
-    padding-top: 1rem;
+.info {
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
 }
 
-svg:hover {
-    fill: #FFC73E;
+.hours {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-times {
+  margin-right: .25rem;
+}
+
+.footer-link:link {
+  color: var(--white);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--yellow);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.social-link {
+  margin-left: 1rem;
+}
+
+.lower {
+  background-color: var(--white);
+  color: var(--black);
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.copyright-content {
+  text-align: center;
+  padding: 0.5rem;
 }
