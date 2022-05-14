@@ -6,10 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="styles/inserts.css">
+  <link rel="stylesheet" href="styles/submit.css">
   <title>Drink of the Month</title>
 </head>
 <body>
   <header id="nav-target" class="main-header"></header>
+  <img class="daily-banner" width="1455" height="1064" src="./images/coffee-overhead.png" alt="overhead view looking down at different cups of coffee">
+  <form class="recipe-form">
+    <div class="form-section">
+      <section class="form-field">
+        <label class="form-label" for="picture">File</label>
+        <input type="file" id="picture" class="form-input" name="picture">
+      </section>
+    </div>
+    <div class="form-section">
+      <section class="form-field">
+        <label class="form-label" for="fname">First Name</label>
+        <input type="text" id="fname" class="form-input" name="fname">
+      </section>
+      <section class="form-field">
+        <label class="form-label" for="lname">Last Name</label>
+        <input type="text" id="lname" class="form-input" name="lname">
+      </section>
+      <section class="form-field">
+        <label class="form-label" for="email">Email</label>
+        <input type="text" id="email" class="form-input" name="email">
+      </section>
+    </div>
+    <div class="form-section">
+      <section class="form-field">
+        <label class="form-label" for="recipe">Recipe</label>
+        <input type="text" id="recipe" class="form-input" name="recipe">
+      </section>
+    </div>
+  </form>
   <footer id="foot-target" class="footer-container"></footer>
   <script src="./scripts/inserts.js"></script>
 </body>
