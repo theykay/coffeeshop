@@ -61,13 +61,13 @@ const footerFill = `
     </div>
   </section>
   <section class="info-section">
-    <a class="footer-link social-link" href="https://www.facebook.com/threepinescoffee/">
+    <a class="footer-link social-link" href="https://www.facebook.com/threepinescoffee/" target="blank">
       <i class="fa-brands fa-facebook-square fa-3x"></i>
     </a>
-    <a class="footer-link social-link" href="https://www.instagram.com/threepinescoffee/?hl=en">
+    <a class="footer-link social-link" href="https://www.instagram.com/threepinescoffee/?hl=en" target="blank">
       <i class="fa-brands fa-instagram-square fa-3x"></i>
     </a>
-    <a class="footer-link social-link" href="https://twitter.com/3pinescoffee">
+    <a class="footer-link social-link" href="https://twitter.com/3pinescoffee" target="blank">
       <i class="fa-brands fa-twitter-square fa-3x"></i>
     </a>
   </section>
