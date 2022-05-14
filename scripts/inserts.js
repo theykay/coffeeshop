@@ -15,7 +15,7 @@ const headerNav = `
         </button>
         <div class="dropdown-content">
           <a class="main-nav-link" href="./events.html">Events</a>
-          <a class="main-nav-link" href="./news-blog.html">News/Blog</a>
+          <a class="main-nav-link" href="./news and blog.html">News/Blog</a>
           <a class="main-nav-link" href="./press.html">Press</a>
         </div>
       </div>
