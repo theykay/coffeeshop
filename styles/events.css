@@ -52,11 +52,6 @@
 .event-content {
   margin: 0 25em;
 }
-.event-hero-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 .may-submissions-container {
   display: flex;
   justify-content: space-around;
