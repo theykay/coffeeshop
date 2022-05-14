@@ -2,7 +2,7 @@ const menuContainer = document.getElementById('menu');
 const menuNav = document.getElementById('menu-nav-container');
 
 const fetchMenu = async () => {
-  let response = await fetch('/menu.json');
+  let response = await fetch('/coffeeshop/menu.json');
   return await response.json();
 }
 
