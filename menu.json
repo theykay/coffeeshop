@@ -14,7 +14,7 @@
     "items" : [
     {
       "image": "./images/iced-espresso.jpeg",
-      "name": "Iced Espressor & Milk",
+      "name": "Iced Espresso & Milk",
       "description": "A double shot of espresso with milk served on ice. All sizes contain a double shot of espresso, therefore larger = more milk.",
       "price": "$5.00 - $5.50"
     },
