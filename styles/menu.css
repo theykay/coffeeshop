@@ -59,12 +59,14 @@
 .menu-card {
   /* border: 1px solid black; */
   width: 15rem;
-  height: max-content;
+  height: auto;
   margin: 1rem;
   background-color: var(--white);
   border-radius: 1rem;
   box-shadow: 0 0 .25rem var(--black);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-card-img {
@@ -75,6 +77,9 @@
 
 .menu-card-text {
   padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 /* .menu-card-name {
@@ -83,8 +88,9 @@
 
 .menu-card-blurb {
   margin: .5rem 0;
+  flex-grow: 1;
 }
 
-/* .menu-card-cost {
-
-} */
+.menu-card-cost {
+  justify-self: flex-end;
+}
