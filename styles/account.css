@@ -3,12 +3,12 @@
     width: 250px;
     height: 250px;
     display: inline-block;
-    background: url("/images/coffeegirl.png") no-repeat;
+    background: url("./images/coffeegirl.png") no-repeat;
     background-size: 250px;
 }
 
 .coffeegirl:hover {
-    background: url("/images/hovercoffeegirl.png") no-repeat;
+    background: url("./images/hovercoffeegirl.png") no-repeat;
     background-size: 250px;
 }
 .coffeebar {
