@@ -134,6 +134,7 @@
   width: 100vw;
   height: auto;
   margin: 0 auto;
+  margin-top: 2rem;
   background: var(--forestGreen);
   color: var(--white);  
 }
