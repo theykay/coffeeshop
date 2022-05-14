@@ -15,32 +15,39 @@
   <form class="recipe-form">
     <div class="form-section">
       <section class="form-field">
-        <label class="form-label" for="picture">File</label>
-        <input type="file" id="picture" class="form-input" name="picture">
-      </section>
-    </div>
-    <div class="form-section">
-      <section class="form-field">
         <label class="form-label" for="fname">First Name</label>
-        <input type="text" id="fname" class="form-input" name="fname">
+        <input type="text" id="fname" class="form-input" name="fname" />
       </section>
       <section class="form-field">
         <label class="form-label" for="lname">Last Name</label>
-        <input type="text" id="lname" class="form-input" name="lname">
+        <input type="text" id="lname" class="form-input" name="lname" />
       </section>
       <section class="form-field">
         <label class="form-label" for="email">Email</label>
-        <input type="text" id="email" class="form-input" name="email">
+        <input type="text" id="email" class="form-input" name="email" />
+      </section>
+    </div>
+    <div class="form-section file-section">
+      <section class="form-file-field">
+        <label class="file-upload" for="picture">
+          <i class="fa-solid fa-image fa-4x svg-icon"></i>
+          <p class="upload-text">
+            Upload an image
+          </p>
+        </label>
+        <input type="file" id="picture" class="form-input" name="picture" />
       </section>
     </div>
     <div class="form-section">
-      <section class="form-field">
+      <section class="form-field textarea">
         <label class="form-label" for="recipe">Recipe</label>
-        <input type="text" id="recipe" class="form-input" name="recipe">
+        <textarea type="text" rows="10" id="recipe" class="form-input-area" name="recipe"></textarea>
       </section>
     </div>
   </form>
   <footer id="foot-target" class="footer-container"></footer>
   <script src="./scripts/inserts.js"></script>
+  <script src="./scripts/submit.js"></script>
+  <script src="https://kit.fontawesome.com/305437fade.js" crossorigin="anonymous"></script>
 </body>
 </html>

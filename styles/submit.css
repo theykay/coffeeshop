@@ -7,8 +7,78 @@
 }
 /* https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit */
 
+.form-label, .form-input {
+  display: block;
+}
+
 .recipe-form {
   display: flex;
-  flex-direction: row;
-  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 50%;
+  min-width: 25rem;
+  max-width: 50rem;
+}
+
+.form-section {
+  width: calc(50% - 1rem);
+}
+
+.form-section:last-child {
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  padding: .25rem;
+  /* height: 2rem; */
+  box-sizing: border-box;
+  margin-bottom: .75rem;
+}
+
+.file-section {
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  margin-bottom: .75rem;;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.form-file-field {
+  /* position: relative; */
+  height: 100%;
+}
+
+.file-upload {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--forestGreen);
+  background-color: var(--greyLight);
+  /* background-image: none, url('../images/image.svg'); */
+}
+
+.file-upload:hover {
+  color: var(--sageGreen);
+  background-color: var(--greyMed);
+}
+
+.form-input-area {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  padding: .25rem;
 }
