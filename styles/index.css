@@ -1,0 +1,116 @@
+.homepage h1 {
+  font-family: var(--title);
+  font-size: 32px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.homepage p {
+  font-family: var(--content);
+  font-size: 20px;
+}
+.homepage {
+  margin: 0 25em;
+}
+.homepage-hero-img {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+/*Featured items section */
+.featured-items-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-card {
+  /* border: 1px solid black; */
+  width: 15rem;
+  height: max-content;
+  margin: 1rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: 0 0 0.25rem var(--black);
+  overflow: hidden;
+}
+.menu-card-img {
+  width: 100%;
+  height: auto;
+  /* border-radius: .5rem .5rem 0 0; */
+}
+
+.menu-card-text {
+  padding: 0.5rem 1rem;
+}
+/* Recipe of the Month section*/
+
+.submit-recipe-button {
+  font-family: var(--title);
+  font-size: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  justify-content: center;
+  align-items: center;
+  background: var(--forestGreen);
+  color: var(--white);
+  height: 3em;
+  width: 30em;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+.submit-recipe-button:hover {
+  box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.5);
+}
+/* delivery section */
+
+.delivery-buttons {
+  display: flex;
+  justify-content: center;
+}
+.delivery-buttons a {
+  text-decoration: none;
+  color: var(--white);
+}
+.ubereats-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--title);
+  font-size: 20px;
+  background: var(--forestGreen);
+  color: var(--white);
+  height: 3em;
+  width: 15em;
+  border-radius: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.doordash-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--title);
+  font-size: 20px;
+  background: var(--forestGreen);
+  color: var(--white);
+  height: 3em;
+  width: 15em;
+  border-radius: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.doordash-button:hover {
+  box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.5);
+}
+.ubereats-button:hover {
+  box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.5);
+}
