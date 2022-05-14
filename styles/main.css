@@ -43,6 +43,10 @@ body {
 }
 
 .content {
+  width: 100%;
   max-width: 81rem;
   flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
