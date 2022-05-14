@@ -1,10 +1,16 @@
 .coffeegirl {
-    height: 20rem;
-    float: left;
-    justify-content:left ;
-    padding: 10rem
+    margin: 2rem 0;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    background: url("/images/coffeegirl.png") no-repeat;
+    background-size: 250px;
 }
 
+.coffeegirl:hover {
+    background: url("/images/hovercoffeegirl.png") no-repeat;
+    background-size: 250px;
+}
 .coffeebar {
     height: 4rem;
     justify-content: center;
@@ -13,3 +19,8 @@
 form {
     float: center;
 }
+
+.form-label, .form-input {
+    display: block;
+  }
+
