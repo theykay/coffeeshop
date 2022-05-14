@@ -1,6 +1,6 @@
 const headerNav = `
 <nav class="header-container">
-  <section class="nav-section">
+  <a class="nav-section" href="/index.html">
     <img class="logo" src="images/logo.png" alt="logo">
     <h1 class="coffee-title">THREE PINES COFFEE</h1>
     <button class="dropbtn">
@@ -19,7 +19,7 @@ const headerNav = `
     <button class="dropbtn">
       <a class="main-nav-link" href="/aboutus.html">About Us</a>
     </button>
-  </section>
+  </a>
   <a class="account-link main-nav-link" href="/account.html">
     <img class="account-icon" src="/images/account_icon.png">
     Account

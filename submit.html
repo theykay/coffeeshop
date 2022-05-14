@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="styles/inserts.css">
+  <link rel="stylesheet" href="styles/submit.css">
+  <title>Drink of the Month</title>
+</head>
+<body>
+  <header id="nav-target" class="main-header"></header>
+  <img class="daily-banner" width="1455" height="1064" src="./images/coffee-overhead.png" alt="overhead view looking down at different cups of coffee">
+  <form class="recipe-form">
+    <div class="form-section">
+      <section class="form-field">
+        <label class="form-label" for="fname">First Name</label>
+        <input type="text" id="fname" class="form-input" name="fname" />
+      </section>
+      <section class="form-field">
+        <label class="form-label" for="lname">Last Name</label>
+        <input type="text" id="lname" class="form-input" name="lname" />
+      </section>
+      <section class="form-field">
+        <label class="form-label" for="email">Email</label>
+        <input type="text" id="email" class="form-input" name="email" />
+      </section>
+    </div>
+    <div class="form-section file-section">
+      <section class="form-file-field">
+        <label class="file-upload" for="picture">
+          <i class="fa-solid fa-image fa-4x svg-icon"></i>
+          <p class="upload-text">
+            Upload an image
+          </p>
+        </label>
+        <input type="file" id="picture" class="form-input" name="picture" />
+      </section>
+    </div>
+    <div class="form-section">
+      <section class="form-field textarea">
+        <label class="form-label" for="recipe">Recipe</label>
+        <textarea type="text" rows="10" id="recipe" class="form-input-area" name="recipe"></textarea>
+      </section>
+    </div>
+    <button class="form-button" type="button">Submit</button>
+  </form>
+  <footer id="foot-target" class="footer-container"></footer>
+  <script src="./scripts/inserts.js"></script>
+  <script src="./scripts/submit.js"></script>
+  <script src="https://kit.fontawesome.com/305437fade.js" crossorigin="anonymous"></script>
+</body>
+</html>
