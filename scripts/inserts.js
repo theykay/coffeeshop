@@ -17,7 +17,7 @@ const headerNav = `
       </div>
     </div>
     <button class="dropbtn">
-      <a class="main-nav-link" href="/aboutus.html">About Us</a>
+      <a class="main-nav-link" href="/about.html">About Us</a>
     </button>
   </a>
   <a class="account-link main-nav-link" href="/account.html">
