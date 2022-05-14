@@ -11,72 +11,91 @@
   </head>
   <body>
     <header id="nav-target" class="main-header"></header>
-    <div class="event-content">
-      <div class event-hero-img>
+
+    <div class="event-content content">
+      <nav class="event-nav">
+        <ul id="event-nav-container" class="event-nav-list">
+          <li class="event-section-li">
+            <a href="#event-submissions" class="event-section-link">Events</a>
+          </li>
+          <li class="event-section-li">
+            <a href="" class="event-section-link">News/Blog</a>
+          </li>
+          <li class="event-section-li">
+            <a href="" class="event-section-link">Press</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="event-hero-img">
+
         <img
           src="images\christina-rumpf-LMzwJDu6hTE-unsplash.jpg"
           alt="coffee beans"
         />
       </div>
-      <h1>Community Specialty Drink Submissions!</h1>
-      <p>
-        Vote for your favorite community drink recipe. Every month Three Pines
-        Coffee picks one of our communities best drink recipes to feature and
-        share with everyone. Winner gets a month free supply of drinks from
-        yours truely! Click below to submit your recipe!
-      </p>
-      <h1>Mays Submissions:</h1>
-      <div class="may-submissions-container">
-        <div class="menu-card">
-          <img
-            class="menu-card-img"
-            src="./images/chocolate.jpeg"
-            alt="Marshmallow Melt Macchiato"
-          />
-          <section class="menu-card-text">
-            <h3 class="menu-card-name">Marshmallow Melt Macchiato</h3>
-            <p class="menu-card-blurb">
-              This months recipe of the month winner features and amazing
-              combination of marshmallow, espresso and chocolate. Submitted by
-              David Smith
-            </p>
-            <h5 class="menu-card-cost">$4.00 - $5.00</h5>
-          </section>
+
+      <div id="event-submissions">
+        <h1>Community Specialty Drink Submissions!</h1>
+        <p>
+          Vote for your favorite community drink recipe. Every month Three Pines
+          Coffee picks one of our communities best drink recipes to feature and
+          share with everyone. Winner gets a month free supply of drinks from
+          yours truely! Click below to submit your recipe!
+        </p>
+        <h1>Mays Submissions:</h1>
+        <div class="may-submissions-container">
+          <div class="menu-card">
+            <img
+              class="menu-card-img"
+              src="./images/chocolate.jpeg"
+              alt="Marshmallow Melt Macchiato"
+            />
+            <section class="menu-card-text">
+              <h3 class="menu-card-name">Marshmallow Melt Macchiato</h3>
+              <p class="menu-card-blurb">
+                This months recipe of the month winner features and amazing
+                combination of marshmallow, espresso and chocolate. Submitted by
+                David Smith
+              </p>
+              <h5 class="menu-card-cost">$4.00 - $5.00</h5>
+            </section>
+          </div>
+          <div class="menu-card">
+            <img
+              class="menu-card-img"
+              src="../images/matcha.jpeg"
+              alt="Iced Matcha Latte"
+            />
+            <section class="menu-card-text">
+              <h3 class="menu-card-name">Iced Matcha Latte</h3>
+              <p class="menu-card-blurb">
+                A cool and refreshing beverage. Made with matcha and milk serve
+                over ice. Submitted by Ann Green
+              </p>
+              <h5 class="menu-card-cost">$4.50 - $5.50</h5>
+            </section>
+          </div>
+          <div class="menu-card">
+            <img
+              class="menu-card-img"
+              src="../images/double-espresso.png"
+              alt="Mocha"
+            />
+            <section class="menu-card-text">
+              <h3 class="menu-card-name">Mocha</h3>
+              <p class="menu-card-blurb">
+                Combination of espresso and chocolate syrup, with steamed milk.
+                Submitted by Kelsey Fitzgerald
+              </p>
+              <h5 class="menu-card-cost">$3.50 - $4.50</h5>
+            </section>
+          </div>
         </div>
-        <div class="menu-card">
-          <img
-            class="menu-card-img"
-            src="../images/matcha.jpeg"
-            alt="Iced Matcha Latte"
-          />
-          <section class="menu-card-text">
-            <h3 class="menu-card-name">Iced Matcha Latte</h3>
-            <p class="menu-card-blurb">
-              A cool and refreshing beverage. Made with matcha and milk serve
-              over ice. Submitted by Ann Green
-            </p>
-            <h5 class="menu-card-cost">$4.50 - $5.50</h5>
-          </section>
-        </div>
-        <div class="menu-card">
-          <img
-            class="menu-card-img"
-            src="../images/double-espresso.png"
-            alt="Mocha"
-          />
-          <section class="menu-card-text">
-            <h3 class="menu-card-name">Mocha</h3>
-            <p class="menu-card-blurb">
-              Combination of espresso and chocolate syrup, with steamed milk.
-              Submitted by Kelsey Fitzgerald
-            </p>
-            <h5 class="menu-card-cost">$3.50 - $4.50</h5>
-          </section>
-        </div>
+        <a class="submit-recipe-button" href="/submit.html"
+          >Submit your recipe here!</a
+        >
       </div>
-      <a class="submit-recipe-button" href="/submit.html"
-        >Submit your recipe here!</a
-      >
+
     </div>
     <footer id="foot-target" class="footer-container"></footer>
     <script src="./scripts/inserts.js"></script>
