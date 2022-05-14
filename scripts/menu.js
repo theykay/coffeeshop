@@ -29,7 +29,7 @@ const renderMenu = async () => {
     item.items.forEach(menuItem => {
       let menuCard = `
         <div class="menu-card">
-          <img class="menu-card-img" src="${menuItem.image}" alt="${menuItem.name}" />
+          <img class="menu-card-img" src="${menuItem.drive}" alt="${menuItem.name}" />
           <section class="menu-card-text">
             <h3 class="menu-card-name">${menuItem.name}</h3>
             <p class="menu-card-blurb">${menuItem.description}</p>
