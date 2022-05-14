@@ -30,10 +30,19 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  height: 100vh;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 88rem;
+  /* max-width: 88rem; */
   margin: 0 auto;
+}
+
+.content {
+  max-width: 81rem;
+  flex: 1 0 auto;
 }

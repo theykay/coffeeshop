@@ -9,8 +9,7 @@
   font-size: 20px;
 }
 .homepage {
-  margin-left: 25em;
-  margin-right: 25em;
+  margin: 0 25em;
 }
 .homepage-hero-img {
   display: block;
