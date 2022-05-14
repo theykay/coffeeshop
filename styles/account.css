@@ -1,26 +1,82 @@
 .coffeegirl {
-    margin: 2rem 0;
-    width: 250px;
-    height: 250px;
-    display: inline-block;
-    background: url("/images/coffeegirl.png") no-repeat;
-    background-size: 250px;
+  width: 250px;
+  height: 250px;
+  margin-right: 2rem;
+  background: url("../images/coffeegirl.png") no-repeat;
+  background-size: 250px;
 }
 
 .coffeegirl:hover {
-    background: url("/images/hovercoffeegirl.png") no-repeat;
-    background-size: 250px;
+  background: url("../images/hovercoffeegirl.png") no-repeat;
+  background-size: 250px;
+  cursor: pointer;
 }
 .coffeebar {
-    height: 4rem;
-    justify-content: center;
+  height: 4rem;
+  justify-content: center;
 }
 
-form {
-    float: center;
+.account-form {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
 }
 
-.form-label, .form-input {
-    display: block;
-  }
+.account-section { 
+  display: flex;
+  flex-direction: column;
+}
 
+.form-div {
+  margin-bottom: 1rem;
+}
+
+.form-label, .form-input-field {
+  display: block;
+}
+
+.form-label {
+  font-family: var(--title);
+}
+
+.form-input-field {
+  padding: .25rem;
+}
+
+.form-edit {
+  background-color: var(--sageGreen);
+  color: var(--forestGreen);
+  box-shadow: 0 0 .125rem .125rem var(--greyMed);
+  padding: .25rem;
+  border: none;
+  border-radius: .25rem;
+}
+
+.form-edit:hover {
+  background-color: var(--forestGreen);
+  color: var(--sageGreen);
+  box-shadow: none;
+}
+
+.account-info {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.account-info ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.account-info h2 {
+  justify-self: flex-start;
+}
