@@ -50,7 +50,7 @@
 .community-content p {
   font-family: var(--content);
   font-size: 20px;
-  margin-bottom: em;
+  margin-bottom: 2em;
 }
 .community-content {
   margin: 0 25em;
