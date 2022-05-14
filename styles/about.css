@@ -1,17 +1,19 @@
 .about-us h1 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--title);
   margin-top: 2em;
   margin-bottom: 1em;
   font-size: 32px;
 }
 .about-us p {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--content);
   font-size: 20px;
+  margin-top: 1em;
 }
 .about-us-hero-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
 }
 .about-us {
   margin-left: 25em;
@@ -19,4 +21,7 @@
 }
 .about-us-center-text {
   text-align: center;
+}
+.about-us-signature p {
+  margin-top: 0;
 }
