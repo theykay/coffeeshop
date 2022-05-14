@@ -23,9 +23,14 @@
   align-items: center;
 }
 
+.left {
+  display: flex;
+  align-items: center;
+}
+
 .account-icon {
   padding-right: .5rem;
-
+  text-decoration: none;
 }
 
 .account-link {
@@ -119,6 +124,9 @@
   color: var(--yellow);
   background-color: transparent;
   text-decoration: underline;
+}
+.account-icon {
+  text-decoration: none !important;
 }
 
 /* footer */

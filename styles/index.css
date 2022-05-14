@@ -12,9 +12,9 @@
   margin: 0 25em;
 }
 .homepage-hero-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
 }
 /*Featured items section */
 .featured-items-container {

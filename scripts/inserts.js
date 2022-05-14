@@ -1,34 +1,41 @@
 const headerNav = `
 <nav class="header-container">
-  <a class="nav-section" href="/index.html">
-    <img class="logo" src="images/logo.png" alt="logo">
-    <h1 class="coffee-title">THREE PINES COFFEE</h1>
-    <button class="dropbtn">
-      <a class="main-nav-link" href="/menu.html">Menu</a>
-    </button>
-    <div class="dropdown">
+  <div class="left"> 
+    <a class="nav-section" href="/index.html">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <h1 class="coffee-title">THREE PINES COFFEE</h1>
+    </a>
+    <div className="main-links">
       <button class="dropbtn">
-        <a class="main-nav-link" href="/community.html">Community</a>
+        <a class="main-nav-link" href="/menu.html">Menu</a>
       </button>
-      <div class="dropdown-content">
-        <a class="main-nav-link" href="/events.html">Events</a>
-        <a class="main-nav-link" href="/news-blog.html">News/Blog</a>
-        <a class="main-nav-link" href="/press.html">Press</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <a class="main-nav-link" href="/community.html">Community</a>
+        </button>
+        <div class="dropdown-content">
+          <a class="main-nav-link" href="/events.html">Events</a>
+          <a class="main-nav-link" href="/news-blog.html">News/Blog</a>
+          <a class="main-nav-link" href="/press.html">Press</a>
+        </div>
       </div>
+      <button class="dropbtn">
+        <a class="main-nav-link" href="/about.html">About Us</a>
+      </button>
     </div>
-    <button class="dropbtn">
-      <a class="main-nav-link" href="/aboutus.html">About Us</a>
-    </button>
-  </a>
-  <a class="account-link main-nav-link" href="/account.html">
-    <i class="fa-solid fa-circle-user fa-2x account-icon"></i>
-    <!--  <img class="account-icon" src="/images/account_icon.png"> -->
-    Account
-  </a>
+  </div> 
+  <!-- </a> -->
+  <div className="right">
+    <a class="account-link main-nav-link" href="/account.html">
+      <i class="fa-solid fa-circle-user fa-2x account-icon"></i>
+      <!--  <img class="account-icon" src="/images/account_icon.png"> -->
+      <span className="account-text">Account</span>
+    </a>
+  </div>
 </nav>
 `;
 
-const headerEl = document.getElementById('nav-target');
+const headerEl = document.getElementById("nav-target");
 headerEl.innerHTML += headerNav;
 
 const footerFill = `
@@ -70,5 +77,5 @@ const footerFill = `
 </div>
 `;
 
-const footerEl = document.getElementById('foot-target');
+const footerEl = document.getElementById("foot-target");
 footerEl.innerHTML += footerFill;
