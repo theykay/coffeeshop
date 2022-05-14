@@ -33,7 +33,7 @@ const renderMenu = async () => {
           <section class="menu-card-text">
             <h3 class="menu-card-name">${menuItem.name}</h3>
             <p class="menu-card-blurb">${menuItem.description}</p>
-            <h5 class="menu-card-cost">${menuItem.price}</h5>
+            <h4 class="menu-card-cost">${menuItem.price}</h4>
           </section>
         </div>
       `;
